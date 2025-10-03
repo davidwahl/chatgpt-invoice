@@ -1,0 +1,23 @@
+# Configuration file with sensitive data
+config.js
+
+# Node modules
+node_modules/
+
+# Downloaded invoices
+invoices/
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
