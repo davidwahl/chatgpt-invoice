@@ -2,6 +2,12 @@
 
 Automated Node.js script to download OpenAI/ChatGPT invoices from the Stripe billing portal and email them to yourself.
 
+> **Important (current limitation)**
+>
+> - This script **only supports Gmail** for reading login emails.
+> - Your **ChatGPT/OpenAI billing account must use the same Gmail address** that you configure for IMAP access in this script.  
+>   If they don’t match, the login link emails won’t be found and the script will fail.
+
 ## Features
 
 - 🔐 Automatically requests login links from OpenAI billing portal
