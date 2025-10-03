@@ -232,7 +232,7 @@ The script is highly optimized for speed:
 
 ### "Login link appears to be expired"
 
-- Login links expire after ~24 hours
+- Login links expire after ~30 minutes
 - The script will automatically request a new link
 - You can manually trigger with `--request` flag
 
