@@ -295,10 +295,8 @@ crontab -e
 
 ## Security Notes
 
-- **config.js is gitignored** - Your credentials are safe from accidental commits
 - The Gmail App Password only has access to your Gmail, not your full Google account
-- Login links expire after ~24 hours for security
-- All credentials are stored locally in `config.js` only
+- Login links expire after ~30 minutes for security
 
 ## Dependencies
 
